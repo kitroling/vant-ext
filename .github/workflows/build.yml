@@ -21,11 +21,11 @@ jobs:
       uses: bahmutov/npm-install@v1
 
     - name: Build
-      run: npm run build
+      run: npm run build-site
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.2
       with:
         access_token: ${{ secrets.ACCESS_TOKEN }}
         branch: site-deploy
-        folder: dist
+        folder: site
