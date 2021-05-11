@@ -36,6 +36,20 @@ module.exports = {
             path: 'parallax',
             title: 'Parallax 视差',
           },
+        ],
+      },
+      {
+        title: '指令',
+        items: [
+          {
+            path: 'click-outside',
+            title: 'ClickOutside 点击外部',
+          },
+        ],
+      },
+      {
+        title: '即将到来',
+        items: [
           {
             path: 'amount',
             title: 'Amount 金融数字',
@@ -55,15 +69,6 @@ module.exports = {
           {
             path: 'water-mark',
             title: 'WaterMark 水印',
-          },
-        ],
-      },
-      {
-        title: '指令',
-        items: [
-          {
-            path: 'click-outside',
-            title: 'ClickOutside 点击外部',
           },
         ],
       },
