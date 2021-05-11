@@ -32,6 +32,43 @@ module.exports = {
             path: 'demo-button',
             title: 'DemoButton 按钮',
           },
+          {
+            path: 'responsive',
+            title: 'Responsive 比例盒子',
+          },
+          {
+            path: 'parallax',
+            title: 'Parallax 视差',
+          },
+          {
+            path: 'amount',
+            title: 'Amount 金融数字',
+          },
+          {
+            path: 'captcha',
+            title: 'Captcha 验证码',
+          },
+          {
+            path: 'checker',
+            title: 'Checker 复选标签',
+          },
+          {
+            path: 'detail-list',
+            title: 'DetailList 清单',
+          },
+          {
+            path: 'water-mark',
+            title: 'WaterMark 水印',
+          },
+        ],
+      },
+      {
+        title: '指令',
+        items: [
+          {
+            path: 'click-outside',
+            title: 'ClickOutside 点击外部',
+          },
         ],
       },
     ],

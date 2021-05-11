@@ -27,7 +27,8 @@
     "*.{vue,css,less,scss}": "stylelint --fix"
   },
   "peerDependencies": {
-    "vue": "^3.0.0"
+    "vue": "^3.0.0",
+    "vant": "^3.0.0"
   },
   "devDependencies": {
     "@vant/cli": "^3.9.0",
@@ -35,19 +36,10 @@
     "vue": "^3.0.0",
     "vant": "^3.0.0"
   },
-  "eslintConfig": {
-    "root": true,
-    "extends": [
-      "@vant"
-    ]
-  },
   "stylelint": {
     "extends": [
       "@vant/stylelint-config"
     ]
-  },
-  "prettier": {
-    "singleQuote": true
   },
   "browserslist": [
     "Chrome >= 51",

@@ -1,4 +1,5 @@
 {
   "singleQuote": true,
-  "proseWrap": "never"
+  "proseWrap": "never",
+  "printWidth": 80
 }
