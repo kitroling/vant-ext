@@ -1,6 +1,7 @@
 {
   "name": "vant-ext",
   "version": "1.0.0",
+  "homepage": "https://kitroling.github.io/vant-ext",
   "description": "",
   "main": "lib/vant-ext.js",
   "style": "lib/index.css",
@@ -25,6 +26,10 @@
     "*.{ts,tsx,js,vue,less,scss}": "prettier --write",
     "*.{ts,tsx,js,vue}": "eslint --fix",
     "*.{vue,css,less,scss}": "stylelint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kitroling/vant-ext.git"
   },
   "peerDependencies": {
     "vue": "^3.0.0",
