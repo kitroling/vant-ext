@@ -29,10 +29,6 @@ module.exports = {
         title: '基础组件',
         items: [
           {
-            path: 'demo-button',
-            title: 'DemoButton 按钮',
-          },
-          {
             path: 'responsive',
             title: 'Responsive 比例盒子',
           },
