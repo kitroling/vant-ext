@@ -27,5 +27,5 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@4.1.2
       with:
         access_token: ${{ secrets.ACCESS_TOKEN }}
-        branch: site-deploy
+        branch: gh-pages
         folder: site
