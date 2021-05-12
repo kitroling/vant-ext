@@ -31,10 +31,10 @@ Vue.use(Responsive);
 
 ### Props
 
-| 参数         | 说明             | 类型               | 默认值 |
-| ------------ | ---------------- | ------------------ | ------ |
-| aspectRatio  | 宽高比例         | _number_, _string_ | -      |
-| contentClass | 内部元素额外类名 | _string_           | -      |
+| 参数         | 说明             | 类型     | 默认值 |
+| ------------ | ---------------- | -------- | ------ |
+| aspectRatio  | 宽高比例         | _number_ | -      |
+| contentClass | 内部元素额外类名 | _string_ | -      |
 
 ### Slots
 

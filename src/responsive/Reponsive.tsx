@@ -6,17 +6,13 @@ const [name, bem] = createNamespace('responsive');
 export default defineComponent({
   name,
   props: {
-    aspectRatio: [String, Number],
+    aspectRatio: Number,
     contentClass: String,
   },
   setup(props, { slots }) {
-    const computedAspectRatio = computed<number>(() => {
-      return Number(props.aspectRatio);
-    });
-
     const aspectStyle = computed<CSSProperties | undefined>(() => {
-      return computedAspectRatio.value
-        ? { paddingBottom: 100 / computedAspectRatio.value + '%' }
+      return props.aspectRatio
+        ? { paddingBottom: 100 / props.aspectRatio + '%' }
         : undefined;
     });
 
