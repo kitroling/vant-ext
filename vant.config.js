@@ -36,6 +36,10 @@ module.exports = {
             path: 'parallax',
             title: 'Parallax 视差',
           },
+          {
+            path: 'water-mark',
+            title: 'WaterMark 水印',
+          },
         ],
       },
       {
@@ -61,14 +65,6 @@ module.exports = {
           {
             path: 'checker',
             title: 'Checker 复选标签',
-          },
-          {
-            path: 'detail-list',
-            title: 'DetailList 清单',
-          },
-          {
-            path: 'water-mark',
-            title: 'WaterMark 水印',
           },
         ],
       },
