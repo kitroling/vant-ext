@@ -35,7 +35,7 @@ Vue.use(Parallax);
 | 参数   | 说明         | 类型     | 默认值 |
 | ------ | ------------ | -------- | ------ |
 | alt    | 图片说明文字 | _string_ | -      |
-| height | 整体高度     | _number_ | 500    |
+| height | 整体高度     | _number_ | `500`  |
 | src    | 图片地址     | _string_ | -      |
 
 ### Slots

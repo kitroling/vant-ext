@@ -18,7 +18,9 @@ Vue.use(WaterMark);
 ### 基础用法
 
 ```html
-<water-mark content="water mark"> // content </water-mark>
+<water-mark content="water mark">
+  <!-- content -->
+</water-mark>
 ```
 
 ### 自定义水印内容
@@ -27,7 +29,7 @@ Vue.use(WaterMark);
 
 ```html
 <water-mark class="content" content="water mark" :opacity="1" cover>
-  // content
+  <!-- content -->
   <template #watermark>
     <span class="water-mark-text">COVER MODE</span>
   </template>
@@ -46,14 +48,14 @@ Vue.use(WaterMark);
 
 ### Props
 
-| 参数    | 说明           | 类型               | 默认值  |
-| ------- | -------------- | ------------------ | ------- |
-| content | 水印内容       | _string_           | -       |
-| spacing | 间隙           | _string_, _number_ | '20vw'  |
-| rotate  | 角度           | _number_           | -45     |
-| opacity | 透明度         | _number_           | 0.2     |
-| repeat  | 是否重复       | _boolean_          | `true`  |
-| cover   | 是否在顶层层级 | _boolean_          | `false` |
+| 参数    | 说明           | 类型               | 默认值   |
+| ------- | -------------- | ------------------ | -------- |
+| content | 水印内容       | _string_           | -        |
+| spacing | 间隙           | _string_, _number_ | `'20vw'` |
+| rotate  | 角度           | _number_           | `-45`    |
+| opacity | 透明度         | _number_           | `0.2`    |
+| repeat  | 是否重复       | _boolean_          | `true`   |
+| cover   | 是否在顶层层级 | _boolean_          | `false`  |
 
 ### Slots
 
